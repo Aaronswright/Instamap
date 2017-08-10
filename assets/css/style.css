@@ -18,6 +18,16 @@ body { /*  Sticky footer */
 main { /*  Sticky footer */
   flex: 1 0 auto;
 }
+
+.icon-huge {
+  font-size: 7rem;
+  margin-top: 10px;
+}
+
+.flow-text-1 {
+  font-size: 1rem;
+}
+
 #brand-img {
   height: 50px;
   margin-top: 5px;
