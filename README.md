@@ -28,7 +28,7 @@ METRICS
   
   Outline:
 Instamap is a social app that will let users know who else is in the same event with them. Our features is based on GoogleMaps, GooglePlaces, and Instagram API's, we will have to layer different API's that use each other.  The Library we will use are D3.js, React, and leaflet. We are consider another technology to do webscraping for extracting information from websites using Python, we are not sure if this is needed or how to deploy it.
-Aaron, is working on the sketch of the final product and breakdown of tasks.
+We will have a sketch of the final product and breakdown of tasks.
 
 Direction for Instructors:
 
