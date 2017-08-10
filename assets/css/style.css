@@ -4,3 +4,21 @@
 |		  need to be made to the materialize layout.
 */
 
+#nav_wrapper {  /*  Pad the navbar  */
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+body { /*  Sticky footer */
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main { /*  Sticky footer */
+  flex: 1 0 auto;
+}
+#brand-img {
+  height: 50px;
+  margin-top: 5px;
+}
