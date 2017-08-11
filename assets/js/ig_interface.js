@@ -1,7 +1,7 @@
 /* 
 |	ig_interface.js-
 |		javascript library for authorizing and
-|		interacting with the Instagram API.		
+|		interacting with the Instagram API.
 */
 
 // TODO: oauth token reciept
@@ -26,7 +26,7 @@ var igInterface = {
 	loggedIn: false,
 	errorList: [];
 	redirectUri: "http://aaronswright.github.io/Instamap/" + "InstaAuth.php",
-	
+
 	init: function(me) {
 		if ( ig_isLoggedIn ) {
 			this.loggedIn = true;
@@ -37,7 +37,7 @@ var igInterface = {
 	},
 	getStatus: function(x = 0) {
 		if ( x === 0 ) {
-			// TODO: use x to vary output... eg, 
+			// TODO: use x to vary output... eg,
 				// 1 to output boolean describing login state
 				// 2 to output a user-friendly string explaining status of the login,
 				//    and any other useful info, etc.
@@ -46,7 +46,7 @@ var igInterface = {
 				//	  that may have occured, along with suggestions on how to amend
 				//	  them.
 				// default = 0 will return boolean for object state, always true
-				//    until error occurs. 
+				//    until error occurs.
 			return true;
 		} else {
 			switch (x) {
@@ -85,7 +85,7 @@ var igInterface = {
 					return false;
 			}
 		}
-						
+
 	}
 
 }
