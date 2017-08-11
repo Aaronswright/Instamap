@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Instamap</title>
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> <!-- Import Materialize fonts... -->
+		<link rel="stylesheet" href="assets/css/materialize.min.css"> <!-- Materialize framework -->
+		<link rel="stylesheet" href="assets/css/style.css"> <!-- last minute layout hacks -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!-- Allow viewport manipulation :: for mobile-responsive layout changes -->
+	</head>
+	<body>
+		<!-- COLOR SCHEME
+			teal, cyan, purple, light-blue, red, grey, blue-grey, green, brown, deep-orange
+			lighten-[1-5], darken-[1-5]
+		-->
+		<header>
+			<nav> <!-- NAVBAR BEGIN -->
+				<div class="navbar-wrapper" id="nav_wrapper">
+					<a href="#" class="brand-logo"><img src="assets/images/instamap_icon.png" class="responsive" id="brand-img">Instamap</a>
+					<ul id="nav-mobile" class="right hide-on-med-and-down">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Profile</a></li>
+						<li><a href="#">Sign In</a></li>
+					</ul>
+				</div>
+			</nav> <!-- NAVBAR END -->
+		</header>
+		<main>
+			<div class="container"><!-- MAIN CONTENT BEGIN -->
+
+				<div class="row">
+					<div class="col s4">
+						<div class="center-align"><i class="material-icons icon-huge red-text text-lighten-2">map</i></div>
+						<h2 class="center-align">Join...</h2>
+						<p class="flow-text flow-text-1">Becoming a member of our community
+						is as easy as logging in to your Instagram account!  We use your Instagram
+						account to sign you in and verify your identity, so sign-up is more
+						like opt-in.  Of course you will have an option to personalize a
+						more in-depth profile, but the only requirements there are for using
+						our service are your location and your public Instagram images.  What
+						are you waiting for?  You could've been done already!
+						</p>
+					</div>
+					<div class="col s4">
+						<div class="center-align"><i class="material-icons icon-huge red-text text-lighten-2">person_pin</i></div>
+						<h2 class="center-align">Locate...</h2>
+						<p class="flow-text flow-text-1">Being in the right place at the right time is certainly an
+							advantage, even more so when you are looking to meet new people
+							that share your interests... Next time you are at a show, getting
+							dinner at your favorite spot, or spending a night out at your
+							go-to bar, let us know.  We'll let you know about the other users
+							in your area that are there with you, as well as the people that
+							frequent the same places you do that you might have missed.</p>
+					</div>
+					<div class="col s4">
+						<div class="center-align"><i class="material-icons icon-huge red-text text-lighten-2">info_outline</i></div>
+						<h2 class="center-align">Meet...</h2>
+						<p class="flow-text flow-text-1">It's never been so easy to meet new
+							people!  You will have access to a list of people that have attended the same
+							event, where you can see not only their Instagram profile, but users
+							will have the opportunity to flesh out their Instagram with a more
+							in-depth profile here.  Need help to break the ice?  Let them know that you have noticed them,
+							and that you are interested in meeting.  The future is in your
+							hands.</p>
+					</div>
+				</div>
+			</div>							 <!-- MAIN CONTENT END -->
+		</main>
+		<footer class="page-footer"> <!-- FOOTER CONTENT BEGIN -->
+			<!--
+			<div class="container"><div class="row">
+				Content
+			</div></div>
+			-->
+			<div class="footer-copyright"><div class="container">
+				&copy; 2017 The A-Team (Aaron W., Bryan S., James L.) <a class="grey-text text-lighten-4 right" href="#">About</a>
+			</div>
+		</footer>										 <!-- FOOTER CONTENT END -->
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>	<!-- JQuery -->
+		<script src="assets/js/materialize.min.js"></script>	<!-- Materialize JS helper -->
+		<script src="assets/js/instamap.js"></script>	<!-- instamap root script, general odd & ends -->
+		<script src="assets/js/gmaps_interface.js"></script> <!-- google maps api code -->
+		<script src="assets/js/ig_interface.js"></script> <!-- instagram api code -->
+	</body>
+</html>
