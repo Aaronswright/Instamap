@@ -3,3 +3,8 @@
 */
 
 // TODO: make it happ'n, captain.
+
+
+$(document).ready(function() {
+    $("#div-signedin").hide();
+});

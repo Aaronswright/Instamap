@@ -1,4 +1,4 @@
-/* 
+/*
 |	ig_interface.js-
 |		javascript library for authorizing and
 |		interacting with the Instagram API.
@@ -25,15 +25,11 @@ var igInterface = {
 	token: false,
 	loggedIn: false,
 	errorList: [];
-	redirectUri: "http://aaronswright.github.io/Instamap/" + "InstaAuth.php",
+	redirectUri: "http://aaronswright.github.io/Instamap/",
 
-	init: function(me) {
-		if ( ig_isLoggedIn ) {
-			this.loggedIn = true;
-			// TODO: finish init for IG obj.
-		} else {
-			this.loggedIn = false;
-		}
+	igInterface: function() {
+		this.loggedIn = ig_isLoggedIn;
+		if (document.)
 	},
 	getStatus: function(x = 0) {
 		if ( x === 0 ) {
@@ -88,4 +84,4 @@ var igInterface = {
 
 	}
 
-}
+};
